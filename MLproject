@@ -1,0 +1,9 @@
+name: dungeon_maze_generator
+
+docker_env:
+  image: dungeon-maze-generator
+
+entry_points:
+  
+  main:
+    command: "python train_maze_generator.py"
